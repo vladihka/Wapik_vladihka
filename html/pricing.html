@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Wapik</title>
+	<link rel="stylesheet" type="text/css" href="../css/wapik_pricing.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header_top_row">
+					<div class="header_top_logo">
+						<a href=""><div class="header_top_logo_text">Wapik</div></a>
+						<div class="header_top_contact">+62 202 555 0117</div>
+					</div>
+					<div :class="{
+					'header_top_burger': true,
+					'active': isActive
+					}"
+						@click="headerActive">
+						<span></span>
+					</div>
+					<div :class="{
+					'header_top_menu': true,
+					'active': isActive
+					}">
+						<div class="header_top_list">
+							<a href="../index.html">
+								<p>Home</p>
+							</a>
+							<a href="../html/about.html">
+								<p>About Us</p>
+							</a>
+							<a href="../html/pricing.html">
+								<p>pricing</p>
+							</a>
+							<a href="../html/contact.html">
+								<p>Contact Us</p>
+							</a>
+							<a href="../html/get_starting.html">
+								<p>Get Started</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<div class="price">
+				<div class="container">
+					<div class="price_container">
+						<div class="price_title title">
+						    <div class="title_title">Pricing & Plan</div>
+						    <div class="title_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+                            Donec id elit non mi porta gravida at eget metus.</div>
+					    </div>
+					    <div class="price_row">
+					    	<div class="price_item">
+					    		<div class="price_item_content">
+					    		    <div class="price_item_type">Basic</div>
+					    		    <div class="price_item_price">$199</div>
+					    		    <div class="price_item_month">/month</div>
+					    		    <div class="price_item_list">
+					    			    <p>Justo Fringilla</p>
+					    			    <p>Molps Sit Nullam</p>
+					    			    <p>Ultricies Purus</p>
+					    			    <p>Amet Cras Inceptos</p>
+					    		    </div>
+					    		</div>
+					    		<div class="price_item_button">
+					    			<button>Select Plan</button>
+					    		</div>
+					    	</div>
+					    	<div class="price_item">
+					    		<div class="price_item_content">
+					    		    <div class="price_item_type">Plus</div>
+					    		    <div class="price_item_price">$399</div>
+					       		    <div class="price_item_month">/month</div>
+					    		    <div class="price_item_list">
+					    			    <p>Justo Fringilla</p>
+					    			    <p>Molps Sit Nullam</p>
+					    			    <p>Ultricies Purus</p>
+					    			    <p>Amet Cras Inceptos</p>
+					    		    </div>
+					    		    <div class="price_item_button">
+					    			    <button>Select Plan</button>
+					    		    </div>
+					    		</div>
+					    	</div>
+					    	<div class="price_item">
+					    		<div class="price_item_content">
+					    		    <div class="price_item_type">Premium</div>
+					    		    <div class="price_item_price">$699</div>
+					    		    <div class="price_item_month">/month</div>
+					    		    <div class="price_item_list">
+					    			    <p>Justo Fringilla</p>
+					    			    <p>Molps Sit Nullam</p>
+					    			    <p>Ultricies Purus</p>
+					    			    <p>Amet Cras Inceptos</p>
+					    		    </div>
+					    		    <div class="price_item_button">
+					    			    <button>Select Plan</button>
+					    		   </div>
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="price_title title_text title_text_bottom">Limited Time Offer. All plans are FREE 14 days!</div>
+					</div>
+				</div>
+			</div>
+			<div class="plans">
+				<div class="container">
+					<div class="plans_title title">
+						<div class="title_title">Included With All Plans</div>
+					</div>
+					<div class="plans_row">
+						<div class="plans_item">
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Maecenas faucibus mollis interdum</div>
+							</div>
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Cras justo odio, dapibus ac facilisis</div>
+							</div>
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Fringilla Mattis</div>
+							</div>
+						</div>
+						<div class="plans_item">
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Vestibulum id ligula porta felis euismod</div>
+							</div>
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Duis mollis, est non commodo luctus</div>
+							</div>
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Integer posuere</div>
+							</div>
+						</div>
+						<div class="plans_item">
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Nulla vitae elit libero, a pharetra augue</div>
+							</div>
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Curabitur blandit tempus porttitor</div>
+							</div>
+							<div class="plans_item_item">
+								<div class="plans_item_img">
+									<img src="../img/plans_img.png" alt="">
+								</div>
+								<div class="plans_item_text">Nullam quis risus eget urna mollis</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="help">
+				<div class="container">
+					<div class="help_container">
+						<div class="help_row">
+							<div class="help_img">
+								<img src="../img/help.png" alt="">
+							</div>
+							<div class="help_title">Need Help?</div>
+							<div class="help_text">Contact our Customer Support that is always ready to help you with any possible
+                            questions, problems or information.</div>
+							<div class="help_email">support@wapik.com</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="download">
+				<div class="container">
+					<div class="download_row">
+						<div class="download_item">
+							<div class="download_title">Do You Like Wapik? Download it Now</div>
+							<div class="download_text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+						</div>
+						<div class="download_button">
+							<button>download now! - FREE forever</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact">
+				<div class="container">
+					<div class="contact_row">
+						<div class="contact_item">
+							<div class="contact_item_title">wapik</div>
+							<div class="contact_item_email">@: hi@wapik.com</div>
+							<div class="contact_item_number contact_item_text">p: +62 202 555 0117</div>
+							<div class="contact_item_adress contact_item_text">a: 610 Overlook Circle Suite 323 Kalamazoo, MI 49009</div>
+						</div>
+						<div class="contact_item">
+							<div class="contact_item_subtitle">Company</div>
+							<div class="contact_item_link contact_item_text"><a href="">Home</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">About Us</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Pricing</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Contact Us</a></div>
+						</div>
+						<div class="contact_item">
+							<div class="contact_item_subtitle">Others</div>
+							<div class="contact_item_link contact_item_text"><a href="">Help & Support</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Privacy Policy</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Terms</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Sitemap</a></div>
+						</div>
+						<div class="contact_item">
+							<div class="contact_item_subtitle">Newsletter</div>
+							<div class="contact_item_text">Subscribe to our newsletter and get all
+                            the cool news</div>
+							<div class="contact_item_input">
+								<input type="text" placeholder="Enter Email">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer_row">
+					<div class="footer_text">All rights reserved 2015.</div>
+					<div class="footer_links">
+						<p><a href=""><img src="../img/footer_1.png" alt=""></a></p>
+						<p><a href=""><img src="../img/footer_2.png" alt=""></a></p>
+						<p><a href=""><img src="../img/footer_3.png" alt=""></a></p>
+						<p><a href=""><img src="../img/footer_4.png" alt=""></a></p>
+						<p><a href=""><img src="../img/footer_5.png" alt=""></a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/vue@next"></script>
+	<script src="../js/wapik.js"></script>
+</body>
+</html>

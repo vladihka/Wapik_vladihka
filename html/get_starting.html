@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Wapik</title>
+	<link rel="stylesheet" type="text/css" href="../css/wapik_get_starting.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header_top_row">
+					<div class="header_top_logo">
+						<a href=""><div class="header_top_logo_text">Wapik</div></a>
+						<div class="header_top_contact">+62 202 555 0117</div>
+					</div>
+					<div :class="{
+					'header_top_burger': true,
+					'active': isActive
+					}"
+					@click="headerActive">
+						<span></span>
+					</div>
+					<div :class="{
+					'header_top_menu': true,
+					'active': isActive
+					}">
+						<div class="header_top_list">
+							<a href="../index.html">
+								<p>Home</p>
+							</a>
+							<a href="../html/about.html">
+								<p>About Us</p>
+							</a>
+							<a href="../html/pricing.html">
+								<p>pricing</p>
+							</a>
+							<a href="../html/contact.html">
+								<p>Contact Us</p>
+							</a>
+							<a href="../html/get_starting.html">
+								<p>Get Started</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<div class="login">
+				<div class="container">
+					<div class="login_container">
+						<div class="login_row">
+							<div class="login_login">
+								<div class="login_login_input">
+									<input type="text" placeholder="Enter your login">
+								</div>
+							</div>
+							<div class="login_password">
+								<div class="login_password_input">
+									<input type="text" placeholder="Enter your password">
+								</div>
+							</div>
+							<div class="login_reg">
+								<a href="#">not registered?</a>
+							</div>
+							<div class="login_button">
+								<button>Sign in</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="register">
+				<div class="container">
+					<div class="register_container">
+						<div class="register_row">
+							<div class="register_login">
+								<div class="register_login_input">
+									<input type="text" placeholder="Choose your login">
+								</div>
+							</div>
+							<div class="register_password">
+								<div class="register_password_input">
+									<input type="text" placeholder="Choose strong password">
+								</div>
+							</div>
+							<div class="register_log">
+								<a href="#">Do you have an account?</a>
+							</div>
+							<div class="register_button">
+								<button>Register</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact">
+				<div class="container">
+					<div class="contact_row">
+						<div class="contact_item">
+							<div class="contact_item_title">wapik</div>
+							<div class="contact_item_email">@: hi@wapik.com</div>
+							<div class="contact_item_number contact_item_text">p: +62 202 555 0117</div>
+							<div class="contact_item_adress contact_item_text">a: 610 Overlook Circle Suite 323 Kalamazoo, MI 49009</div>
+						</div>
+						<div class="contact_item">
+							<div class="contact_item_subtitle">Company</div>
+							<div class="contact_item_link contact_item_text"><a href="">Home</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">About Us</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Pricing</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Contact Us</a></div>
+						</div>
+						<div class="contact_item">
+							<div class="contact_item_subtitle">Others</div>
+							<div class="contact_item_link contact_item_text"><a href="">Help & Support</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Privacy Policy</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Terms</a></div>
+							<div class="contact_item_link contact_item_text"><a href="">Sitemap</a></div>
+						</div>
+						<div class="contact_item">
+							<div class="contact_item_subtitle">Newsletter</div>
+							<div class="contact_item_text">Subscribe to our newsletter and get all
+                            the cool news</div>
+							<div class="contact_item_input">
+								<input type="text" placeholder="Enter Email">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer_row">
+					<div class="footer_text">All rights reserved 2015.</div>
+					<div class="footer_links">
+						<p><a href=""><img src="../img/footer_1.png" alt=""></a></p>
+						<p><a href=""><img src="../img/footer_2.png" alt=""></a></p>
+						<p><a href=""><img src="../img/footer_3.png" alt=""></a></p>
+						<p><a href=""><img src="../img/footer_4.png" alt=""></a></p>
+						<p><a href=""><img src="../img/footer_5.png" alt=""></a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/vue@next"></script>
+	<script src="../js/wapik.js"></script>
+	<script src="../js/wapik_reg.js"></script>
+</body>
+</html>
